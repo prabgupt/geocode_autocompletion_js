@@ -1,0 +1,27 @@
+Prequisite
+-----------
+
+Geocoder Reference in Google Map JavaScript API v3
+
+		http://code.google.com/apis/maps/documentation/javascript/reference.html#Geocoder
+
+Google Maps Geocoding API(to know what attributes are return in result and which refers to what)
+
+		http://code.google.com/apis/maps/documentation/geocoding/
+
+autocomplete Jquery UI(1.8.12)
+
+		http://jqueryui.com/demos/autocomplete/
+
+
+Steps to use
+-------------
+
+1. Include Jquery js and Jquery-UI js and css in html code. For your convinience, you can use the one that I have added the in this project.
+2. Include following line in html head
+		<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+   This is needed to use google maps code
+3. Include our geocode_autocomplete.js
+4. Assigned class 'geocode_autocomplete' to input text box which you want to get auto filled based on user input.
+
+Please refer working sample_geocode_usage.html for exact code.
