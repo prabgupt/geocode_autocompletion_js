@@ -6,10 +6,7 @@ $('.geocode_autocomplete').live('focus', function(){
               geocoder.geocode( {'address': request.term}, function(results, status) {
                 $("#map_location").attr("value","");
                 response($.map(results, function(item) {
-                  //if(event_type != "route")
                     value = item.address_components[0].long_name;
-                  //else
-                    //value = item.formatted_address;
                   return {
                     label: item.formatted_address,
                     value: value,
